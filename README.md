@@ -4,7 +4,7 @@
 
 Employee attrition refers to an employee’s voluntary
 or involuntary resignation from the workforce. Organizations spend many resources on hiring talented employees
-and training them. Every employee is critical to a company’s success. My goal was to predict employee attrition
+and training them. Every employee is critical to a company’s success. The goal was to predict employee attrition
 and identify the factors contributing to an employee leaving the workforce. I trained various classification models on our dataset and assessed their performance using different metrics such as accuracy, precision, recall, and F1 Score. I
 also analyzed the dataset to identify key factors contributing
 to an employee leaving the workforce. This project will assist organizations in gaining fresh insights into what drives
