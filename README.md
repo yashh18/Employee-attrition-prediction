@@ -4,7 +4,7 @@
 
 Employee attrition refers to an employee’s voluntary
 or involuntary resignation from the workforce. Organizations spend many resources on hiring talented employees
-and training them. Every employee is critical to a company’s success. Our goal was to predict employee attrition
+and training them. Every employee is critical to a company’s success. My goal was to predict employee attrition
 and identify the factors contributing to an employee leaving the workforce. I trained various classification models on our dataset and assessed their performance using different metrics such as accuracy, precision, recall, and F1 Score. I
 also analyzed the dataset to identify key factors contributing
 to an employee leaving the workforce. This project will assist organizations in gaining fresh insights into what drives
@@ -38,9 +38,9 @@ Trained the models on 6 different datasets
 6. Oversampling With PCA
 
 Further, to get the best performance, hyperparameter tuning was carried out using RandomSearchCV and GridSearchCV. K-fold cross-validation with 5 folds was also
-performed on the training set. To handle model interpretability, appropriate graphs and figures were used.Accuracy for the attrition decision is a biased metric, and hence we evaluated the model on all the
+performed on the training set. To handle model interpretability, appropriate graphs and figures were used. Accuracy for the attrition decision is a biased metric, and hence we evaluated the model on all the
 following classification metrics: accuracy, precision, recall
-and F1 Score.
+, and F1 Score.
 
 ## Dataset
 Used the [IBM Employee Attrition dataset from Kaggle](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset). It contains 35 columns and 1470 rows and has a mix of
@@ -59,7 +59,7 @@ numerical and categorical features. A sample row is shown below.
 
 The figure below shows feature importance w.r.t random forest with oversampling. We observe that the most important
 features were MonthlyIncome followed by OverTime and Age, while the least important features were Performance
-Rating, Gender and BusinessTravel.
+Rating, Gender, and BusinessTravel.
 
 
 <img src="Images/FeatureImportance.png" height="500">
@@ -67,7 +67,7 @@ Rating, Gender and BusinessTravel.
 #### Best Performing Model
 The best performance was obtained in Random Forest Model
 with PCA and Oversampling with an accuracy of 99.2%,
-the precision of 98.6%, recall of 99.8% and F1 Score of
+the precision of 98.6%, recall of 99.8%, and F1 Score of
 99.2%.
 
 ## Instructions to run
